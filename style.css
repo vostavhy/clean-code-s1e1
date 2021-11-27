@@ -33,6 +33,7 @@
   margin: 0 auto 0;
 }
 
+.task-creator__input,
 .task-item__text,
 .task-item__label {
   width: 56%;
@@ -40,7 +41,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-creator {
   display: flex;
   margin-top: 20px;
 }
@@ -97,7 +98,7 @@
   color: #333;
 }
 
-.input #new-task {
+.task-creator__input {
   width: 318px;
 }
 
